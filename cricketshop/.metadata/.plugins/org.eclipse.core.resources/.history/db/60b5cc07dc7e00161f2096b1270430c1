@@ -1,0 +1,54 @@
+package com.control;
+
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.RequestMapping;
+
+@Controller
+public class homecontrol {
+
+	@RequestMapping("/")
+	public String goo()
+	{
+		return "first";
+	}
+		
+	@RequestMapping("/home")
+	public String goo1()
+	{
+		return "first";
+	}
+	
+	@RequestMapping("/head")
+	public String head()
+	{
+		return "head";
+	}
+	
+	@RequestMapping("/head-meta")
+	public String head_meta()
+	{
+		return "head-meta";
+	}
+	@RequestMapping("/login")
+	public String login()
+	{
+		return "login";
+	}
+	@RequestMapping("/register")
+	public String register()
+	{
+		return "register";
+	}
+	@RequestMapping("/aboutus")
+	public String aboutus()
+	{
+		return "aboutus";
+	}
+	@RequestMapping("/contactus")
+	public String contactus()
+	{
+		return "contactus";
+	}
+	
+	
+}

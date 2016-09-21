@@ -1,0 +1,49 @@
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1" pageEncoding="ISO-8859-1"%>
+<%@page isELIgnored="false"%>
+
+  <div class="content-wrapper new-class">
+      
+           <div class="row">
+                <div class="col-xs-12 ">
+                     <div class="center-logo description">
+                          <img src="${pageContext.request.contextPath}/resources/images/logo/Capture2.JPG"  alt="" class="img-responsive"> <a href="#"></a>   
+                  </div>
+                  </div>
+             </div>
+        </div>
+          
+ <nav style="z-index: 4; background-image: url(${pageContext.request.contextPath}/resources/images/); border: none;" class="navbar navbar-inverse">
+			<div class="container-fluid">
+    			<div class="navbar-header">
+      				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        				<span class="icon-bar"></span>
+        				<span class="icon-bar"></span>
+        				<span class="icon-bar"></span>                        
+      				</button>
+    			</div>
+    		
+    			<div class="collapse navbar-collapse" id="myNavbar">
+	    			<ul class="nav navbar-nav navbar-left">
+	    			
+	    			<form class="navbar-form navbar-left" role="search">
+      			  <div class="form-group">
+          		<input type="text" class="form-control" placeholder="Search" required>
+        		</div>
+        		<button type="submit" class="btn btn-success" >Search</button>
+        		
+      			</form>
+	    			
+		    			<li><a class="nav navbar-left" href="${pageContext.request.contextPath}/index">Home</a></li>
+		        		<li><a href="${pageContext.request.contextPath}/aboutus">AboutUs</a></li>
+				        <li><a href="${pageContext.request.contextPath}/contactus">ContactUs</a></li>
+				        <li><a href="${pageContext.request.contextPath}/product">Products</a></li>
+				        <li><a href="${pageContext.request.contextPath}/login">Login</a></li>
+				        <li><a href="${pageContext.request.contextPath}/signup">SignUp</a></li>
+			           
+				    </ul>  
+				 
+	    		</div>
+  			</div>
+		</nav>
+		
+	

@@ -1,0 +1,7 @@
+INDEX VERSION 1.3+E:\cricketshop\.metadata\.plugins\org.eclipse.wst.jsdt.core\indexes
+3121279901.index
+1175088553.index
+1830402492.index
+3849588777.index
+768508037.index
+3596407521.index

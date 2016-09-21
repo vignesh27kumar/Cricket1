@@ -1,0 +1,12 @@
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+    pageEncoding="ISO-8859-1"%>
+
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+
+
+<title>cricbazar</title>
+
+<link rel="stylesheet" href="${pageContext.request.contextPath}/resources/references/css/bootstrap.min.css">
+<script src="${pageContext.request.contextPath}/resources/references/js/jquery-1.11.1.js"ry-2.1.4.min.js""></script>
+<link rel="stylesheet" href="${pageContext.request.contextPath}/resources/references/css/style.css">
+"src/main/resources/references/js/jquery-1.11.1.js"ry-2.1.4.min.js"
